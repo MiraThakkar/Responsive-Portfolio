@@ -2,24 +2,14 @@ body{
     background-image: url("../images/concrete_seamless.png");
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-/*
+
 .container{
    width:960px;
    max-height: 50%;
 
 }
-*/
 
-.container {
-    width:960px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: space-around;
-}
+
 
  h2 {
     color:#4aaaa5;
@@ -72,6 +62,7 @@ nav.navbar {
     padding:10px;
 }
 
+
   .card-footer {
     width: 100%;
     height:40px;
@@ -85,7 +76,7 @@ nav.navbar {
     background-color:#777;    
 }
 
-.btn-primary h1{
+.btn-primary{
     background-color: #4aaaa5;
 }
 
@@ -104,4 +95,39 @@ nav.navbar {
     padding: 10px 10px 10px 10px;
     text-align: center;
   }
+/*Adding media queries for small screens*/
+
+@media screen and (min-width: 600px){
+
+  .text-block {
+    width: 100%;
+    position: absolute;
+    bottom: 30px;
+    background-color:#4aaaa5;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+  }
+
+}
+
+@media (max-width: 767px){
+  li.nav-item a {                
+    border: none !important;          
+}
+}
+
+@media (max-width: 576px){
+    .container{
+        padding: 4rem 2rem;
+        width:100%;
+    }
+
+    #profilePic{
+        width:150px !important;
+        display: block !important;        
+    }
+
+   
+}
 
