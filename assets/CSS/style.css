@@ -24,6 +24,8 @@ a.navbar-brand {
 }
 nav.navbar {
     background-color: white;
+    border-bottom: 2px solid;
+    border-color: #cccccc;
 }
 
 li.nav-item a {        
@@ -32,6 +34,13 @@ li.nav-item a {
     font-size: 15px;     
     padding: 0 10px 0 10px;                 /* To reduce height of border between Menu */
 }
+
+li.nav-item a:hover {
+    text-decoration: underline;
+    
+}
+
+
 
 /* To remove boder for last menu item */
 li.nav-item:last-child a {              
@@ -60,6 +69,9 @@ nav.navbar {
 .jumbotron{
     background-color: white;
     padding:10px;
+    border: 1px solid ;
+    border-color: #dddddd;
+    line-height: 1.5;
 }
 
 
@@ -126,6 +138,7 @@ nav.navbar {
     #profilePic{
         width:150px !important;
         display: block !important;        
+        
     }
 
    
