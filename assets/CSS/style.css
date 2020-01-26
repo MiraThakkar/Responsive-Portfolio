@@ -5,7 +5,7 @@ body{
 
 .container{
    width:960px;
-   max-height: 50%;
+   max-height: 80%;
 
 }
 
@@ -82,6 +82,7 @@ nav.navbar {
     border-top: solid ;
     border-color: #4aaaa5;
     border-width: 6px;
+    color:white;
    }
 
 .navbar-toggler {
@@ -101,13 +102,65 @@ nav.navbar {
 .text-block {
     width: 100%;
     position: absolute;
-    bottom: 30px;
+    bottom: 50px !important;
     background-color:#4aaaa5;
     color: white;
     padding: 10px 10px 10px 10px;
     text-align: center;
   }
+
+ .img-fluid {
+
+    width: 100%;
+    height: 250px;
+
+
+ }
 /*Adding media queries for small screens*/
+
+
+.footer {
+    background:#f6f6f6;
+    padding:20px 0;
+    border-top:2px solid gray;
+   }
+   .widget h2 {
+    cursor:pointer;  
+    font-size:18px;
+    font-weight:bold;
+    padding-bottom:5px;
+   }
+   .footer-bottom {
+    background:#d8d8d8;
+    border-top:1px solid #d9d9d9;
+    font-size:11px;
+    color:#777;
+   }
+
+   .fa {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-github {
+    background: red;
+    color: white;
+  }
+  
 
 @media screen and (min-width: 600px){
 
@@ -133,6 +186,7 @@ nav.navbar {
     .container{
         padding: 4rem 2rem;
         width:100%;
+        margin: 10px;
     }
 
     #profilePic{
@@ -143,4 +197,5 @@ nav.navbar {
 
    
 }
+
 
