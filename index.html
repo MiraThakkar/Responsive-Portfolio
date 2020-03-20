@@ -9,65 +9,101 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type= "text/css" href= "assets/CSS/style.css">
 </head>
 <body>
   <!-- container holds navbar brand and nav itmes-->
-  <div class= "container">
-    <div class="row">
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top">        
-        <div class="container">    
-          <a class="navbar-brand" href="#">
-              <strong>Mira Thakkar</strong>
-          </a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          
-          <div class="nav collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
-             <ul class="navbar-nav ">      
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top">        
+    <div class="container">    
+      <a class="navbar-brand" href="#">
+          <strong>Mira Thakkar</strong>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="nav collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+          <ul class="navbar-nav ">      
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
 
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
+  </nav>
  <!--Navnar container end here-->
- <br><br><br><br>
+  <br><br><br><br>
   <!--container to hold main content of the page-->
   <div class="container">
-    <div class="jumbotron">
-      <h2>About Me</h2>
-      <hr>
-      <img id="profilePic" src= "assets/images/Profile.jpeg" alt="Profile Image" class="image-wrapper float-left pr-3">
-      <p>
-        Hi. I am a Full Stack Web Developer and Business Analyst. I have been learning Full Stack Development from UConn since past year. My passion for coding grew 
-        after working on a few projects as Business Analyst. As being a personal who prefers challenges than comfort, I was always inclined
-        towards the opportunities which inforced me to keep myself in ever learning state.
-        </p>
-      
-        <p>
-          Check out few of my apps which i have built using HTML5, CSS, LESS, SASS, XML, JavaScript, jQuery and looking forward to building many more.
-          I am proficient in building server side apps using NodeJS , Express using RESTful APIs, AJAX, and SQL/MySQL.
-        </p>
-        <p>
-          For self caring, I love to travel and cook for my family to bring something exciting at the dinner table.
-        </p>
-       
+    <div class = "row">
+      <div class = "col-md-4 col-lg-3">
+
+        <div class="card">
+          <div class = "text-center">
+            <img src= "./assets/images/Profile1.jpeg" class= "img-fluid" alt="...">
+
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Mira Thakkar</h5>
+            <p class="card-text">Full Stack Developer/Business Analyst</p>
+            <article class="widget_content">  
+              <a href="https://www.linkedin.com/in/mira-thakkar-4b9124149/" class="fa fa-linkedin"></a>
+              <a href="https://github.com/MiraThakkar/" class="fa fa-github"></a>
+            </article>
+              
+          </div>
+          <div>
+
+          </div>
+
+         
+        </div>
+
+      </div>
+      <div  class = "col-md-8">
+        <!-- <h2>About Me</h2> -->
+        <hr>
+        <h2> Hi! This is Mira and I am Full Stack Developer...</h2>
         <br>
+        <h6>
+          I have Bachlors Degree in Computer Applcations and
+          I have been learning Full Stack Development from UConn since past year. My passion for coding grew 
+          after working on a few projects as Business Analyst.
+        </h6>
+          <br> 
+        <p>
+          I am proficient in buiding mobile first web applications in HTML, CSS, Javascript/JQuery and server side apps in NodeJS using RESTful APIs, AJAX, SQL/MySQL and MongoDB.
+          check out few of my apps i have build on my profile page.
+        </p>
+
+        <p> 
+          As being a personal who prefers challenges than comfort, I was always inclined
+          towards the opportunities which inforced me to keep myself in ever learning state. I am self-driven, self-challenged individual and a great team player.
+        </p>
+        <p>
+          I have passion to cook so that I can bring something exciting at dinner table for my family. For selfcare I love to travel new places and I adore coffee dates with my girl friends!
+        </p>
         
-    
+        <br>
+        <br>
+        <br>
+        <div>
+          <a class = "resume" target="-blank" href= "#">
+            <i class = "fa fa-download"></i>Download Resume
+          </a>
+        </div>
+
         
+
+      </div>
     </div>
   </div>
   <!--main container ends here-->
@@ -81,4 +117,4 @@
   </nav>
   <script src= "assets/script/script.js"></script>
 </body>
-</html
+</html>
