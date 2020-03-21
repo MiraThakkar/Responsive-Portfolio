@@ -5,8 +5,9 @@ body{
 
 .container{
 
-    width: 80% !important;
-   
+    width: 100% !important;
+    /* margin: 20px; */
+ 
 }
 
 
@@ -83,14 +84,17 @@ color:white;
 
 .col-md-8 {
 
-    /* padding: 10px; */
-    font-size: 12px;
+    padding: 10px;
+    margin: 0 auto;
+    font-size: 14px;
+
    
 }
 
 .card {
     /* margin-top: 50px; */
     text-align: center;
+    margin-top: 80px;
 
 
 }
@@ -143,6 +147,8 @@ color:white;
     margin: 5px 2px;
     border-radius: 50%;
   } */
+
+  
 
   .resume {
       background-color: #ffffff;
