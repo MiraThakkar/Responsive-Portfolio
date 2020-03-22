@@ -99,15 +99,42 @@ color:white;
 
 }
 
+#badge {
+    color: rgba(24, 22, 22, 0.829);
+}
+
+.btn-info {
+    background-color: 
+    rgb(128, 153, 35);
+    color: black;
+    border:  rgb(128, 153, 35);;
+}
+
+.bg-dark {
+    border: none;
+    height: 400px;
+}
+
+.card-body {
+    color: #d8d8d8
+    /* background-color: rgb(99, 96, 96); */
+}
+
+.card-img-top{
+    width:100%;
+    height:200px;
+}
+
 .text-block {
     /* width: 100%; */
     position: absolute;
     bottom: 50px !important;
     background-color:#4aaaa5;
-    color: white;
+    color: #ffffff;
     padding: 10px 10px 10px 10px;
     text-align: center;
 }
+
 
 .img-fluid {   
 
