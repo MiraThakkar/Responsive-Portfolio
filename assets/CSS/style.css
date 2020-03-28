@@ -223,7 +223,7 @@ color:white;
 
 @media (max-width: 576px){
     .container{
-        padding: 4rem 2rem;
+        /* padding: 4rem 2rem; */
         width:100%;
         margin: 10px;
     }
@@ -232,6 +232,11 @@ color:white;
         width:150px !important;
         display: block !important;        
         
+    }
+
+    .navbar-toggler {
+        margin-right: 5px;
+        padding: 5px;
     }
 
    
